@@ -1,0 +1,33 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.card{
+    border: 2px gray;
+    width: 50%;
+    height: 80vh;
+    margin: 7% 0 0 30%;
+
+}
+
+form{
+    display: grid;
+    grid-template-columns: 40% 25%;
+    grid-template-rows: 73% 4vh;
+    grid-template-areas: "texto texto"
+                         "file file";
+}
+
+.file{
+    grid-area: file;
+}
+.text{
+    border: 1px solid green;
+    border-radius: 10px;
+    grid-area: texto;
+}
