@@ -54,6 +54,18 @@ h2{
     grid-area: item7;
 }
 
+.grid:hover{
+    background-color: black;
+    cursor: pointer;
+    margin: 30px 30px ;
+    transition: .5s;
+}
+
+.grid{
+
+    transition: .5s;
+}
+
 @media(max-width: 636px){
     .grid-anuncio{
         width: 33vh;
