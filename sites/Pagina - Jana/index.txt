@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="port" dir="ltr">
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <title>Steve Cutts</title>
+  </head>
+  
+  <body>
+  
+    <header>
+    <h1>Steve Cutts</h1>
+    </header>
+    
+    <main class="grid">
+        <section class="cartao">
+        <img src="img/imagem3.jpg"  alt="Homem">
+        
+        <h2> Man </h2>
+        <p>26/12/2012 Steve Cutts subia em sua página do YouTube sua animação experimental "Homem" </p> 
+        <p>Um homem com uma camiseta bem receptiva com os dizeres "Welcome" em menos de 4 minutos caminha por uma "retrospectiva" da intervenção humana de forma desenfreada no planeta Terra desde o momento em que "pisou aqui". O modo de vida extremamente consumista não dá espaço para pensar no meio em que vive, só se aproveitando, com muita crueldade, de tudo que está disponível para "servi-lo"</p>
+         <a class="btn" href="https://www.youtube.com/embed/DaFRheiGED0">"Assista aqui"</a>
+        
+        </section>
+        
+         <section class="cartao">
+        <img src="img/imagem2.jpg" alt="Homem 2020">
+        
+        <h2> Depois de 8 anos... </h2>
+        <p>Durante o início da quarentena Steve lançou uma espécie de continuação do seu primeiro curta Man</p> 
+        <p>Por conta do período de quarentena, dessa vez o Homem está sentado no sofá de casa vendo TV. Enquanto no mundo externo, por conta da ausência de destruição da sociedade, os animais começam a viver felizes, reocupar seus ecossistemas, as florestas, em respiro, se prolifera... até quando?</p>
+         <a class="btn" href="https://www.youtube.com/embed/DaFRheiGED0">Assista aqui</a>
+        
+        </section>
+        
+          <section class="cartao">
+        <img src="img/imagem3.jpg" alt="Imagem">
+        
+        <h2> What is Lorem Ipsum?
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p> 
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <a class="btn" href="https://unsplash.com/">Unsplash</a>
+        
+        </section>
+        
+          <section class="cartao">
+        <img src="img/imagem4.jpg" alt="Imagem">
+        
+        <h2> What is Lorem Ipsum?
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p> 
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <a class="btn" href="https://unsplash.com/">Unsplash</a>
+        
+        </section>
+        
+             <section class="cartao">
+        <img src="img/imagem5.jpg" alt="Imagem">
+        
+        <h2> What is Lorem Ipsum?
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p> 
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <a class="btn" href="https://unsplash.com/">Unsplash</a>
+        
+        </section>
+        
+             <section class="cartao">
+        <img src="img/imagem6.jpg" alt="Imagem">
+        
+        <h2> What is Lorem Ipsum?
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p> 
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+         <a class="btn" href="https://unsplash.com/">Unsplash</a>
+        
+        </section>
+        
+        
+    </main>
+    
+  </body>
+</html>

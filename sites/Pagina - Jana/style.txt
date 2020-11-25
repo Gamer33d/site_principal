@@ -1,0 +1,42 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+);
+
+html * {
+    box-sizing: border-box;
+ }
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000033
+}
+
+h2 {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+img {
+  max-width: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+ }
+ 
+.cartao {
+    background-color: #ccc;
+    padding: 15px;
+}
+
+.btn {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    

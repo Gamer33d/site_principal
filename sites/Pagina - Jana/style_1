@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+html *{
+    margin: 15px;
+}
+
+body {
+    background-image: url("img/fundo2.png")
+    
+    }
+
+
+h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Sigmar One', cursive;
+    }
+
+.laranja{
+    color: #ff751a;
+    }
+    
+    
+.verde{
+    color: #b3ffd9;
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: #00b300;
+    text-align: ligth;
+    font-size: 30px;
+    }
+
+
+.rosa{
+    color: #ff3399;
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: #00b300;
+    text-align: ligth;
+    font-size: 30px;
+    }
+
+.roxo{
+    color: #8000ff;
+    }
+
+.grid{
+    
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    grid-gap: 10px;
+    }
+
+.cartao {
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 8px;
+    }
+
+img {
+     max-width: 100%;
+     border-radius: 9px;
+    }
+

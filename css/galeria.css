@@ -45,12 +45,17 @@ h2{
     grid-area: item3;
 }
 .grid-item4{
+    background-image: url('../imgs/carlos-site.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: tomato;
     grid-area: item4;
 }
 
 .grid-item5{
-    background-color: indigo;
+    background-image: url('../imgs/logo_dark.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
     grid-area: item5;
 }
 .grid-item6{

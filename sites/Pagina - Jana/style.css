@@ -1,0 +1,114 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+);
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
+html * {
+    box-sizing: border-box;
+ }
+
+
+body {
+    background-color: black;
+}
+    
+    
+
+h1 {
+  font-family: 'Architects Daughter', cursive;
+  color: #ffcc00;
+  background color: #ffc34d;
+  padding: 60px;
+  text-align: center;
+    
+    background-image: url("img/imagem7.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    
+    font-size: 60px;
+    text-shadow: 1px 1px #fff;
+}
+
+h2 {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    text-align: justify;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+ }
+ 
+.cartao {
+    background-color: white;
+    padding: 20px;
+	    border-radius: 8px;
+  }
+
+.btn {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.btn:hover {
+    background-color: #994d00;
+    
+}
+
+small {
+  display: block;
+  background-color: #f1f1f1;
+  color: black;
+  padding: 40px 20px;
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+ 
+}
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+	justify-content: center;
+	align-items:center;
+}
+
+nav > a {
+  border-bottom: 4px solid #bbb;
+  color: #ffcc00;
+  font-size: 20px;
+  padding: 20px 10px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s;
+  border-radius: 8px;
+}
+.grid-nav-item:hover {
+  display: grid;
+  background-color:  #006622;
+  text-decoration: underline;
+}
