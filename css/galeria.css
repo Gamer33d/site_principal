@@ -20,20 +20,28 @@ h2{
 
 .grid-principal{
 
-    background-color: cyan;
+    background-color: darkgreen;
     grid-area: principal;
 }
 
 .grid-item1{
-    background-color: red;
+    background-image: url('../imgs/jana-site.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
     grid-area: item;
 }
 .grid-item2{
+    background-image: url('../imgs/Geovana-site.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: royalblue;
     grid-area: item2;
 }
 .grid-item3{
-    background-color: seagreen;
+    background-image: url('../imgs/camila.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     grid-area: item3;
 }
 .grid-item4{

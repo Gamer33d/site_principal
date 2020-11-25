@@ -1,0 +1,147 @@
+/* ALTERAR PARA TODOS OS ELEMENTOS */
+html * {
+    /* RESETAR A MARGEM */
+    margin: 0px;
+    /* LARGURA MÁXIMA DOS ELEMENTOS */
+    max-width: 100%;
+}
+
+body {
+    /* COR DE FUNDO */
+    background-color: #f0b0dd;
+}
+ 
+#logotipo {
+    /* LARGURA DO LOGOTIPO */
+    width: 200px;
+    /* MARGEM DO LOGOTIPO */
+    margin: 20px 50px 20px 50px;
+    /* BORDA DO LOGOTIPO (TAMANHO ESTILO COR) */
+    border: 8px double rgb(60, 26, 61);
+}
+
+.titulo a {
+    background-image: url("img/agulha.jpg");
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-size: 100% 100%;
+    font-size: 8em;
+    font-family: cursive;
+    text-decoration: none;
+    color: rgb(105, 7, 109);
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: rgb(235, 232, 99); /* cor da borda */
+      
+}
+
+#menu {
+    /* COR DE FUNDO */
+    background-color: rgb(102, 2, 105);
+    /* BORDA DO MENU SUPERIOR E INFERIOR */
+    border-top: 10px double rgb(235, 232, 99);
+    border-bottom: 10px double rgb(235, 232, 99);
+    /* ESPAÇAMENTO DO CONTEÚDO DO MENU */
+    padding: 5px;
+    /* MARGEM INFERIOR */
+    margin-bottom: 5px;
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 4 COLUNAS */
+    grid-template-columns: repeat(3, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 5px;
+    /* ALINHAR OS ELEMENTOS NO CENTRO */
+    text-align: center;
+}
+
+#btn-muda-cor:hover{
+    color: #d86bb7;
+    font-size: x-large;
+}
+
+#menu a{
+    /* COR DOS LINKS */
+    color:rgb(222, 236, 25);
+    /* LETRAS MAIÚSCULAS */
+    text-transform: uppercase;
+    /* REMOVER SUBLINHADO */
+    text-decoration: none;
+    /* ESPAÇAMENTO ENTRE OS LINKS  */
+    padding: 10px;
+    /* FONTE */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.principal {
+    
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 3 COLUNAS */ 
+    grid-template-columns: repeat(3, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 100px;
+
+    /* MARGEM DOS CARDS */
+    margin: 20px 60px;
+}
+
+/* CAIXA DO CARD COM IMAGEM E H2 */
+.item {
+    /* COR DE FUNDO */
+    background-color: #e6a2d1;
+    /* ALINHAR NO CENTRO */
+    text-align: center; 
+    /* LETRAS MAIÚSCULAS */
+    text-transform: uppercase;
+    /* FONTE */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 200%;
+    color: rgb(102, 2, 105);
+    /* BORDA SUPERIOR */
+    border: 5px solid rgb(102, 2, 105);
+    /* CONTORNO PARA BORDA */
+    border-radius: 1%;  
+    padding: 20px;
+}
+
+img{
+    object-fit: contain;
+    height: 400px;
+    width: 350px;
+  
+}
+
+.itemlogo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 5px;
+    /* ALINHAR OS ELEMENTOS NO CENTRO */
+    text-align: center;
+    /* COR DE FUNDO */
+    background-color: #e6a2d1;
+    /* LETRAS MAIÚSCULAS */
+    text-transform: uppercase;
+    /* FONTE */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.rodape {
+    /* COR DE FUNDO */
+    background-color: rgb(102, 2, 105);
+    /* ALTURA */
+    height: 50px;
+    /* COR  */
+    color: #d86bb7;
+    /* FONTE */
+    font-family: sans-serif;
+    font-size: small;
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: flex;
+    /* JUSTIFICAR NA HORIZONTAL */    
+    justify-content: center;
+    /* JUSTIFICAR NA VERTICAL */ 
+    align-items: center;
+}

@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    max-width: 1800px;
+    margin: auto;
+}
+
+
+body{
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #373B44,#4286f4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 120px;   
+}
+
+.inicio{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    filter: grayscale(100%);
+
+}
+
+.saiba-mais{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding-top: 37%;
+    border-bottom: 10em;
+    border-radius: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(138, 138, 138);
+}
+
+.paragrafo-sobre{
+    position: Absolute;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.5;
+    text-align: center;
+    top: 55%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    padding: 15px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+.titulo{
+    position: Absolute;
+    background: -webkit-linear-gradient(#4b14cc, #0b106d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+    text-transform: uppercase;
+    font-size: 85px;
+    font-family: 'Montserrat', sans-serif;
+    top: 35%;
+    right: 0;
+    bottom: 0;
+    left: -2%;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+.Home{
+    padding-top: 58%;
+    max-width: 100px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    position: relative;
+    transform: translateX(-250%);
+    filter: grayscale(100%);
+    filter: opacity(30px); 
+}
+
+.youtube-color{    
+    color: #ffffff;    
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 0.8%;
+    border-radius: 15em;
+}
+
+.playlists-temporadas-super-choque{    
+    position: absolute;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 15px;
+    padding-top: 100px;
+    text-align: center;
+    top: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;  
+}
+
+
+.as-4-temporadas{
+    color: #ffffff;
+    padding: 20px;
+}
+
+.container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+
+}
+
+.Personagem-Super-Choque{
+    position: absolute;
+    top: 160%;      
+    margin-left: -4.1%;
+    width: 450px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.sobre-super-choque{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 18%;
+    text-align: center;
+    font-size: 100%;
+    font-family: 'Helvetica', sans-serif;
+    -webkit-filter: drop-shadow(2px 2px 2px #555);
+    filter: drop-shadow(1px 1px 1px #444);
+   
+}
+
+.fundo-Azul{
+    position: static; 
+    padding-top: 58%;
+    border-radius: 30px;
+    
+    
+    
+}
+
+.fundo-Branco{
+    position: static;
+    padding-top: 8%;
+    border-radius: 10%;
+    
+}
+
+.footer{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3%;
+    color: #000000;
+
+}
+
+
+.footer-fontes{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 39%;
+    color: #000000;
+
+}
+
+.canal{
+    text-decoration: none;
+    color: #0b106d;
+}
+
+.google{
+    text-decoration: none;
+    color: #0b106d;
+    
+    
+}
+
+.wikipedia{
+    text-decoration: none;
+    color: #0b106d;
+
+}

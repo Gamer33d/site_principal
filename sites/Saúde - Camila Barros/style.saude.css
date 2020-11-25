@@ -1,0 +1,25 @@
+header {font-size: 20px; padding: 30px; font-family: Lobster; text-align: center; color: white; font-weight: normal;} 
+header {background-image: url("img.jpg"); background-size: cover;}
+    
+    main {display: grid; grid-template-columns: 32% 32% 32%; grid-template-rows: 60px 240px; grid-gap: 13px; background-color: rgb(243, 117, 117);}
+    p {font-family: Nunito; text-align: justify; font-size: 20px; font-weight: normal; color: black;}
+    .títulos {font-family: Lobster; font-size: 25px; color: whitesmoke; text-align: center; font-weight: bold;}
+    
+    #subtítulo_1 {font-family: Comic Sans MS; color: rgb(1, 82, 1); text-align: center; font-weight: bold; font-size: 35px;}
+h4 {font-weight: normal; font-size: 21px; font-family: Nunito; text-align: center;}
+
+li {font-family: Georgia; font-size: 20px; color: rgb(243, 117, 117);}
+.lista_1 {display: inline-flex;}
+.lista_2 {display: inline-flex;}
+.ul-1{position: relative;left: 110%;}
+.ul-2{position: relative;left: 110%;}
+
+#subtítulo_2 {font-family: Comic Sans MS; text-align: center; color: rgb(1, 82, 1); font-weight: bold; font-size: 35px;}
+.playlists{display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 5px;}
+.playlists{position: relative; align-content: center;}
+
+footer {background-image: url("img.jpg"); background-size: cover;}
+h3 {text-align: center; color: white; font-family: Lobster; font-weight: normal; font-size: 15px; padding: 20px;}
+
+a {font-family: Cambria Math; color: blue; font-weight: normal; font-size: 10px;}
+h6 {font-family: Cambria Math; color: blue; font-weight: normal; text-align: left; font-size: 10px;}
