@@ -19,7 +19,9 @@ h2{
 
 
 .grid-principal{
-
+    background-image: url('../imgs/Gamer-Halyson-site.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: darkgreen;
     grid-area: principal;
 }
@@ -53,16 +55,22 @@ h2{
 }
 
 .grid-item5{
-    background-image: url('../imgs/logo_dark.jpeg');
+    background-image: url('../imgs/site-sofia.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     grid-area: item5;
 }
 .grid-item6{
+    background-image: url('../imgs/arthur-site.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: lawngreen;
     grid-area: item6;
 }
 .grid-item7{
+    background-image: url('../imgs/curiosidades_do_mundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: gold;
     grid-area: item7;
 }
@@ -89,7 +97,7 @@ h2{
     }
     .galeria{
         grid-template-columns: 10vh 10vh 10vh;
-        grid-template-rows: 10vh 10vh;
+        grid-template-rows: 10vh 10vh 10vh;
 
     }
 }
